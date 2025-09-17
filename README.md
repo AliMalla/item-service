@@ -10,7 +10,7 @@ API:et gör det möjligt att:
 * Ta bort produkter
 
 Systemet används av frontend-applikationen (React + TypeScript) men kan även testas separat med t.ex. `curl` eller ett verktyg som Postman.
-Länk till Frontend-applikationen: (https://github.com/AliMalla/item-frontend.git)
+Länk till Frontend-applikationen: (https://github.com/AliMalla/item-frontend)
 
 ---
 
