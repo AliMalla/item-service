@@ -10,7 +10,7 @@ API:et gör det möjligt att:
 * Ta bort produkter
 
 Systemet används av frontend-applikationen (React + TypeScript) men kan även testas separat med t.ex. `curl` eller ett verktyg som Postman.
-Länk till Frontend-applikationen:
+Länk till Frontend-applikationen: (https://github.com/AliMalla/item-frontend.git)
 
 ---
 
@@ -25,7 +25,7 @@ Länk till Frontend-applikationen:
 1. **Klona projektet**
    ```bash
    git clone <repo-url>
-   cd products-backend
+   cd <projektmapp>
    ```
 
 2. **Bygg och starta applikationen**
@@ -63,9 +63,7 @@ Länk till Frontend-applikationen:
 ---
 
 ### Testning
-Du kan testa API:et med t.ex. `curl` using powershell:
+Du kan testa API:et med t.ex. `curl` om du inte har frontend projektet:
 ```bash
-curl -X POST http://localhost:8080/items \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Handskar","quantity":50,"unity":"paket"}'
+curl -X POST http://localhost:8080/items -H "Content-Type: application/json" -d "{\"name\":\"Handskar\",\"quantity\":50,\"unity\":\"paket\"}"
 ```
